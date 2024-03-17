@@ -4,7 +4,15 @@
 
 ## **Про нас**
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset she
+***Проєкт "Бджілка"*** - це багатофункціональна інтернет платформа для бронювання різноманітних послуг з метою спрощення життя людини - від вибору особистого фітнес тренеру, замовлення репетиторів для навчання дітей, вигулу домашніх тварин до планування туристичних подорожей чи використання послуг віртуального асистента. Серед аналогів проєкту є вкрай популярний сервіс "Kabanchik.ua".
+
+---
+
+Платформа уявляє собою багатосторінковий web-сайт, для роботи з яким не потрібно мати спеціальних навичок, адже проста та зручна реалізація користувальницького інтерфесу стане зрозумілою навіть для дитини. Серед головних можливостей застосунку є пошук і бронювання необхідних видів послуг, а також ознайомлення з рейтингами виконавців та цілодобова технічна підримка. Користувачу надається можливість відчути увесь спектр переваг використання веб-додатку завдяки виконанню простих умов щодо регістрації, з можливостями подальшої аутентифікації та авторизації. 
+
+---
+
+***"P.S."*** Проєкт був розроблений на базі мови програмування Ruby, користуючись функціональними можливостями фреймворку Ruby on Rails, засобами web-дизайну HTML & CSS та сервера управління базами даних. Веб-додаток підготували студенти ХНУ ім. В.Н. Каразіна, факультету комп'ютерних наук, групи КС32, у 2024 році. 
 
 ---
 
@@ -54,11 +62,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Встановлення та запуск
 
-1. There are many variations of passages of Lorem Ipsum available.
-    1. There are many variations of passages of Lorem Ipsum available.
-    2. There are many variations of passages of Lorem Ipsum available.
-2. There are many variations of passages of Lorem Ipsum available
-    1. There are many variations of passages of Lorem Ipsum available
-    2. There are many variations of passages of Lorem Ipsum available
-    3. There are many variations of passages of Lorem Ipsum available
-3. There are many variations of passages of Lorem Ipsum available
+Якщо Ви хочете стати адміністраторм web-додатку, то Вам необхідно виконати наступні дії щодо встановлення та запуску:
+
+1. Встановити програмне забезпечення для мови програмування Ruby (бажано також мати RubyMain чи інший IDE).
+2. Клонувати проєкт із даного репозиторію GitHub (перевірте, чи встановлений на Git на Вашому пристрої):
+    - створіть робочу директорію на комп'ютерному прристорї (ex: C:\User\Users\work_dir);
+    - за допомогою засобів командного рядка, введіть git-команду "*git clone https://github.com/SabinaGamidova721/PlatformForBookingServices.git*";
+3. Перевірте, чи усі дані були повністю перенесені на Ваш пристрій.
+4. У поточній робочій директорії виконайте декілька кроків для налаштування та запуску web-застосунку:
+    - використовуючи можливості консолі, введіть команду "*bundle install*" для завантаження необхідних gems;
+    - запустіть локальний сервер завдяки команді "*rails s*" (завершення роботи серверу - "*rails c*");
+    - користуючись будь-яким браузером, який встановлений на Вашому ПК, перейдіть за посиланням "*localhost:3000*".
+5. Використовуйте веб-додаток для здійснення власних цілей. Нехай щастить!
+
+***"P.S."*** Проєкт "Бджілка" є лише початковим прототипом сервісу для бронювання послуг, тому на даний момент увесь функціонал реалізується на локальному сервері комп'ютерного пристрою.
